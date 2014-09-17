@@ -14,26 +14,19 @@
 
   <body>
 
-    <!-- Begin page content -->
     <div class="container">
       <div class="page-header">
         <h3></h3>
       </div>
-      <p class="lead">I'm hungry! Show me the food trucks closeby to this location.</p>
+      <p class="lead">Where in San Francisco do you want to find food trucks at?</p>
       <form  class="navbar-form navbar-left" action="/gettrucks" method="post">
         <div class="form-group">
-          <input type="text" name="loc" id="loc" class="form-control input-lg" 
-          placeholder="What's the location?" >
+          <input required type="text" name="loc" id="loc" class="form-control input-lg" 
+          placeholder="What's the address?" >
         </div>
         <button type="submit" class="btn btn-default btn-lg">Find</button>
       </form>
 
-    </div>
-
-    <div class="footer">
-      <div class="container">
-        <p class="text-muted">Footer content here.</p>
-      </div>
     </div>
   </body>
 </html>
