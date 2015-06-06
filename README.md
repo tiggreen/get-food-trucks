@@ -60,3 +60,7 @@ If you have time you could read what I write about :)
 
 Thank you!!
 Tigran
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tiggreen/get-food-trucks/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
